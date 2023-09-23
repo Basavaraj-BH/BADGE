@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-color: rgb(148, 162, 162);
+    background-size: 100%;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+.navigation>header>nav>img{
+    padding-left: 118px;
+}
+
+.navigation>header>nav>ul{
+    list-style: none;
+    float: right;
+    padding-right: 125px;
+    padding-top: 18px;
+   
+}
+.navigation>header>nav>ul>li{
+    display: inline-block;
+
+}
+.navigation>header>nav>ul>li>a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+.navigation>header>nav>ul>li:last-child {
+    background-color:white;
+    color: black;
+    height: 25px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.navigation>header>nav>ul>li:last-child a{
+    color: black;
+   
+}
+.navigation>header>nav>ul>li:hover a{
+    color: crimson;
+}
+
+.section1{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+.section1{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;  
+}
+.div1>.pp{
+    color: #fff;
+}
+.Animation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+
+.Animation>h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.animation{
+   
+    background: url(../images/animation1.jpg)no-repeat center;
+    background-size: 100%;
+    animation: image 10s infinite;
+}
+@keyframes image {
+    from{background: url(../images/animation1.jpg)no-repeat top; color: black; }
+    to{background: url(../images/animation2.jpg)no-repeat bottom; color: wheat;}
+}
+
+
+.footer{
+    margin-top: 25px;
+    color: rgb(27, 25, 25);
+}
